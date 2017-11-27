@@ -20,7 +20,7 @@ var coreFiles = fs.readdirSync('dist/').filter(function (it) {
   return 'dist/' + it; 
 });
 
-var summernoteFiles = langFiles.concat(coreFiles);
+var summernoteFiles = [].concat(coreFiles, langFiles);
 
 
 Package.describe({
