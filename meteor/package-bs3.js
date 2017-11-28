@@ -1,7 +1,7 @@
 // package metadata file for Meteor.js
 'use strict';
 
-var packageName = 'easylogic:summernote-standalone';  // http://atmospherejs.com/summernote:standalone
+var packageName = 'easylogic:summernote-bs3';  // http://atmospherejs.com/summernote:standalone
 var where = 'client';  // where to install: 'client' or 'server'. For both, pass nothing.
 
 var fs = Npm.require("fs");
@@ -17,15 +17,12 @@ var langFiles = fs.readdirSync('dist/lang/').map(function(it) {
   return 'dist/lang/' + it; 
 });
 
-var coreFiles = fs.readdirSync('dist/').filter(function (it) {
-  return it.includes('.js') || it.includes('.css');
-}).map(function (it) {
-  return 'dist/' + it; 
-});
+var coreFiles = [
+  'dist/summernote.js',
+  'dist/summernote.css'
+];
 
 var summernoteFiles = [].concat(coreFiles, langFiles);
-
-
 
 Package.describe({
   name: packageName,
