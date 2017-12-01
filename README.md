@@ -3,15 +3,15 @@ Packaging [summernote](http://summernote.org/) for [Meteor.js](http://meteor.com
 
 # Versions
 
-** With bootstrap and jquery 
+## With bootstrap and jquery 
 
-* [easylogic:summernote](https://atmospherejs.com/summernote/summernote) - includes jQuery and Bootstrap as dependencies
+* [summernote:summernote](https://atmospherejs.com/summernote/summernote) - includes jQuery and Bootstrap as dependencies
 
-** Without any dependencies
+## Without any dependencies
 
-* [easylogic:summernote-bs3](https://atmospherejs.com/easylogic/summernote-bs3)
-* [easylogic:summernote-bs4](https://atmospherejs.com/easylogic/summernote-bs4)
-* [easylogic:summernote-lite](https://atmospherejs.com/easylogic/summernote-lite)
+* [summernote:summernote-bs3](https://atmospherejs.com/summernote/summernote-bs3)
+* [summernote:summernote-bs4](https://atmospherejs.com/summernote/summernote-bs4)
+* [summernote:summernote-lite](https://atmospherejs.com/summernote/summernote-lite)
 
 
 # Meteor
@@ -24,7 +24,7 @@ development framework. Read more at [Why Meteor](http://www.meteorpedia.com/read
 
 # Issues
 
-If you encounter an issue while using this package, please CC @easylogic when you file it in this repo.
+If you encounter an issue while using this package, please CC @summernote when you file it in this repo.
 
 
 # DONE

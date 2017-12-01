@@ -1,7 +1,7 @@
 // package metadata file for Meteor.js
 'use strict';
 
-var packageName = 'easylogic:summernote-bs4';  // http://atmospherejs.com/summernote:standalone
+var packageName = 'summernote:summernote-bs4';  // http://atmospherejs.com/summernote:standalone
 var where = 'client';  // where to install: 'client' or 'server'. For both, pass nothing.
 
 var fs = Npm.require("fs");
