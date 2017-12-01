@@ -1,11 +1,17 @@
-Build + Meteor status: [![Build Status](https://travis-ci.org/MeteorPackaging/summernote.svg?branch=meteor-integration)](https://github.com/MeteorPackaging/summernote/tree/meteor-integration/meteor)
 
 Packaging [summernote](http://summernote.org/) for [Meteor.js](http://meteor.com).
 
 # Versions
 
-* [summernote:summernote](https://atmospherejs.com/summernote/summernote) - includes jQuery and Bootstrap as dependencies
-* [summernote:standalone](https://atmospherejs.com/summernote/standalone) - doesn't include any dependencies
+** With bootstrap and jquery 
+
+* [easylogic:summernote](https://atmospherejs.com/summernote/summernote) - includes jQuery and Bootstrap as dependencies
+
+** Without any dependencies
+
+* [easylogic:summernote-bs3](https://atmospherejs.com/easylogic/summernote-bs3)
+* [easylogic:summernote-bs4](https://atmospherejs.com/easylogic/summernote-bs4)
+* [easylogic:summernote-lite](https://atmospherejs.com/easylogic/summernote-lite)
 
 
 # Meteor
@@ -18,7 +24,7 @@ development framework. Read more at [Why Meteor](http://www.meteorpedia.com/read
 
 # Issues
 
-If you encounter an issue while using this package, please CC @dandv when you file it in this repo.
+If you encounter an issue while using this package, please CC @easylogic when you file it in this repo.
 
 
 # DONE
